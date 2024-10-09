@@ -1,16 +1,34 @@
 # googlenoteclone
 
-A new Flutter project.
+A Flutter-based note-taking app, inspired by Google Keep, that allows users to create, edit, and delete notes. The app supports Google sign-in for syncing notes and uses both Firestore for cloud storage and SQLite for local data storage.
 
-## Getting Started
+Features
 
-This project is a starting point for a Flutter application.
+- Google Sign-In integration for seamless user authentication.
+- Create, edit, and delete notes.
+- Notes are stored locally using SQLite for offline access.
+- Syncs notes with Firestore for cloud storage.
+- Easy-to-use interface similar to Google Keep.
 
-A few resources to get you started if this is your first Flutter project:
+Packages Used
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- firebase_auth: For Google sign-in integration.
+- cloud_firestore: For storing notes in Firestore.
+- sqflite: For local SQLite storage.
+- path: To work with file paths for SQLite.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Folder Structure
+|-- android/
+|-- assets/
+|-- ios/
+|-- lib/
+|-- linux/
+|-- macos/
+|-- web/
+|-- windows/
+|-- .gitignore
+|-- .metadata
+|-- README.md
+|-- analysis_options.yaml
+|-- pubspec.lock
+|-- pubspec.yaml
